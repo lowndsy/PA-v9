@@ -25,12 +25,11 @@ require 'scraperwiki/simple_html_dom.php';
 // Build the list of URLs to analyse
 
 $Targets = array(
-"https://www.uswitch.com/mobiles/samsung-galaxy-s10e-deals/?variant=128gb-prism-black",
-"https://www.uswitch.com/mobiles/samsung-galaxy-s10-deals/?variant=128gb-prism-black",
-"https://www.uswitch.com/mobiles/samsung-galaxy-s10-plus-deals/?variant=128gb-prism-black",
-"https://www.uswitch.com/mobiles/samsung-galaxy-s9-deals/?variant=64gb-black",
-"https://www.uswitch.com/mobiles/samsung-galaxy-s9-plus-deals/?variant=64gb-black",
-"https://www.uswitch.com/mobiles/huawei-p30-deals/?variant=128gb-aurora"	
+"https://www.uswitch.com/mobiles/huawei-p30-pro-deals/?variant=128gb-black",
+"https://www.uswitch.com/mobiles/huawei-p20-deals/?variant=128gb-black",
+"https://www.uswitch.com/mobiles/huawei-p20-pro-deals/?variant=128gb-black",
+"https://www.uswitch.com/mobiles/huawei-mate-20-deals/?variant=128gb-black",
+"https://www.uswitch.com/mobiles/huawei-mate-20-pro-deals/?variant=128gb-black"
 );
 
 foreach ($Targets as $target)
