@@ -361,7 +361,7 @@ $comptarget=$target.'';
 	   // This version purposely uses a pretty general Primary key
            // - duplication is possible, which will stop the same deal being stored more than once
 	   // - date - phone - deal description - networkbrand
-            $tocommit[$thispos]['prikey']=MD5($target.$usedate.$thisphone.$contractdetails2[$target][$thispos-1].$contractdetails6[$target][$thispos-1]);
+            $tocommit[$thispos]['prikey']=MD5($usedate.$thisphone.$contractdetails2[$target][$thispos-1].$contractdetails6[$target][$thispos-1]);
 
 
            
